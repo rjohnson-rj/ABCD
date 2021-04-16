@@ -1,0 +1,204 @@
+[Root]
+Most Recent Package=Salary Software
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\extremaa\Desktop\New folder\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Program Files (x86)\Project1\HariSri.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Users\extremaa\Desktop\New folder\Project1.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSFLXGRD.OCX=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files (x86)\Project1\HariSri.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\extremaa\Desktop\New folder\Project1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files (x86)\Project1\HariSri.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\extremaa\Desktop\New folder\Project1.exe=Yes
+C:\Program Files (x86)\Project1\HariSri.mdb=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Extremaa Salary Software
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Users\extremaa\Desktop\New folder\Package
+ProjectFolder=C:\Users\extremaa\Desktop\New folder
+ServerSideCab=
+File1=C:\Users\extremaa\Desktop\New folder\Package\setup.exe
+File2=C:\Users\extremaa\Desktop\New folder\Package\Setup.Lst
+File3=C:\Users\extremaa\Desktop\New folder\Package\Project1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Extremaa Salary Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Extremaa Salary Software]
+Icon1=Project1.exe
+Title1=Extremaa Salary Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Salary Software|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\extremaa\Desktop\Package
+
+[Package|Salary Software|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Salary Software|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Salary Software|Files Found]
+
+[Package|Salary Software|Files Released]
+
+[Package|Salary Software|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+
+[Package|Salary Software|Out-of-Date Dependency Information]
+
+[Package|Salary Software|Files Added]
+c:\program files (x86)\project1\harisri.mdb=
+
+[Package|Salary Software|Files Removed]
+
+[Package|Salary Software|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSFLXGRD.OCX=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files (x86)\Project1\HariSri.mdb=Yes
+E:\HOSTING WORKS\RESHMA WORK\Salary Software.exe=Yes
+
+[Package|Salary Software|Configure Registry Files]
+Applicable=No
+
+[Package|Salary Software|Configure Remote Servers]
+Applicable=No
+
+[Package|Salary Software|Install Locations]
+C:\Users\extremaa\Desktop\New folder\Project1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files (x86)\Project1\HariSri.mdb=$(AppPath)
+E:\HOSTING WORKS\RESHMA WORK\Salary Software.exe=$(AppPath)
+
+[Package|Salary Software|Configure Shared Files]
+Applicable=Yes
+C:\Users\extremaa\Desktop\New folder\Project1.exe=Yes
+C:\Program Files (x86)\Project1\HariSri.mdb=Yes
+E:\HOSTING WORKS\RESHMA WORK\Salary Software.exe=Yes
+
+[Package|Salary Software|Distribution]
+Type=single
+Size=1.44 MB
+Title=Extremaa Salary Software
+
+[Package|Salary Software|IconGroups]
+Group0=Extremaa Salary Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Salary Software|Extremaa Salary Software]
+Icon1=Project1.exe
+Title1=Extremaa Salary Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Salary Software|Package]
+PackageFolder=C:\Users\extremaa\Desktop\Package
+ProjectFolder=E:\HOSTING WORKS\RESHMA WORK\Extremaa Salary software
+ServerSideCab=
+File1=C:\Users\extremaa\Desktop\Package\setup.exe
+File2=C:\Users\extremaa\Desktop\Package\Setup.Lst
+File3=C:\Users\extremaa\Desktop\Package\Salary Software.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
